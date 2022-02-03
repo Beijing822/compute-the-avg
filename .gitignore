@@ -1,0 +1,24 @@
+input("firstest=95")
+input("secondtest=73")
+input("thirdtest=87")
+input("average=85")
+
+firsttest = int(input(95))
+secondtest = int(input(73))
+thirdtest = int(input(87))
+
+input("allthree =(firsttest + secondtest + thirdtest)")
+
+def average(allthree):
+    return allthree/3
+
+grades = allthree
+finalgradeABC = yourgrade(grades)
+avg = average(allthree)
+
+print("Average grade is : " + str(avg))
+print("You grade : " + str(finalgradeABC))
+print("firsttest")
+print("second test")
+print("thirdtest")
+print("average")
